@@ -1,0 +1,18 @@
+{
+	"name": "floxim/transformer",
+	"description": "Recursive data transformation library based on xpath-like selectors",
+	"keywords": [ "json", "transform", "xpath"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Ilya Myasin",
+			"homepage": "http://blogovo.ru/"
+		}
+	],
+	"require": {
+		"PHP" : ">=5.4"
+	},
+	"autoload": {
+		"psr-0": { "Floxim": "src/" }
+	}
+}
